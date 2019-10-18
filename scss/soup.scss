@@ -151,6 +151,7 @@
 	color: #fff !important;
 	background-color: green;
 	text-decoration: none;
+  z-index: 40000;
 }
 
 .crunchify-top {
@@ -168,4 +169,5 @@
 	border-radius: 3.2rem;
 	text-align: center;
 	cursor: pointer;
+  z-index: 40000;
 }

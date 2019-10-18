@@ -1,11 +1,9 @@
 /* The hero image */
 .hero_bg_color {
   background-color: #f4f4f4;
-  height: 25rem;
-}
-.hero_bg_color .hero_color {
-  background-color: #f4f4f4;
-}
+  height: 25rem; }
+  .hero_bg_color .hero_color {
+    background-color: #f4f4f4; }
 
 .hero-image {
   background-color: #f4f4f4;
@@ -15,15 +13,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-}
-.hero-image .hero-title {
-  font-family: "Hepta Slab", serif;
-}
+  position: relative; }
+  .hero-image .hero-title {
+    font-family: 'Hepta Slab', serif; }
 
 .soft_shadow {
-  box-shadow: 0px 5px 10px 0px rgba(0, 64, 128, 0.05);
-}
+  box-shadow: 0px 5px 10px 0px rgba(0, 64, 128, 0.05); }
 
 /* Place text in the middle of the image */
 .hero-text {
@@ -31,93 +26,73 @@
   position: absolute;
   top: 20rem;
   left: 50%;
-  transform: translate(-50%, -50%);
-}
+  transform: translate(-50%, -50%); }
 
 .hero-title {
-  font-family: "Hepta Slab", serif;
-}
+  font-family: 'Hepta Slab', serif; }
 
 .h-rule_style {
   background: linear-gradient(to right, #f43b47, #453a94, #453a94, #f43b47);
-  height: 0.2rem;
-}
+  height: 0.2rem; }
 
 .power-sections {
   background-color: #000000;
   transform: skewY(-6deg);
-  height: inherit;
-}
-.power-sections .hero-title {
-  font-family: "Hepta Slab", serif;
-}
-.power-sections .callout_content {
-  -ms-transform: skewY(6deg);
-  -webkit-transform: skewY(6deg);
-  transform: skewY(6deg);
-}
-.power-sections .callout_font_style {
-  font-size: 1.3rem;
-  font-family: "Source Sans Pro", sans-serif;
-}
+  height: inherit; }
+  .power-sections .hero-title {
+    font-family: 'Hepta Slab', serif; }
+  .power-sections .callout_content {
+    -ms-transform: skewY(6deg);
+    -webkit-transform: skewY(6deg);
+    transform: skewY(6deg); }
+  .power-sections .callout_font_style {
+    font-size: 1.3rem;
+    font-family: 'Source Sans Pro', sans-serif; }
 
 .top-1x {
-  margin-top: 3rem;
-}
+  margin-top: 3rem; }
 
 .top-3x {
-  margin-top: 6rem;
-}
+  margin-top: 6rem; }
 
 .top-6x {
-  margin-top: 9rem;
-}
+  margin-top: 9rem; }
 
 .bottom-1x {
-  margin-bottom: 3rem;
-}
+  margin-bottom: 3rem; }
 
 .bottom-3x {
-  margin-bottom: 6rem;
-}
+  margin-bottom: 6rem; }
 
 .bottom-6x {
-  margin-bottom: 9rem;
-}
+  margin-bottom: 9rem; }
 
 .padding-1x {
-  padding-top: 3rem;
-}
+  padding-top: 3rem; }
 
 .padding-3x {
-  padding-top: 6rem;
-}
+  padding-top: 6rem; }
 
 .padding-6x {
-  padding-top: 9rem;
-}
+  padding-top: 9rem; }
 
 .padding-bottom-1x {
-  padding-bottom: 3rem;
-}
+  padding-bottom: 3rem; }
 
 .padding-bottom-3x {
-  padding-bottom: 6rem;
-}
+  padding-bottom: 6rem; }
 
 .padding-bottom-6x {
-  padding-bottom: 9rem;
-}
+  padding-bottom: 9rem; }
 
 .hero-title {
-  font-family: "Hepta Slab", serif;
-}
+  font-family: 'Hepta Slab', serif; }
 
 .crunchify-top:hover {
   color: #fff !important;
   background-color: green;
   text-decoration: none;
-}
+  z-index: 40000; }
 
 .crunchify-top {
   display: none;
@@ -134,6 +109,6 @@
   border-radius: 3.2rem;
   text-align: center;
   cursor: pointer;
-}
+  z-index: 40000; }
 
 /*# sourceMappingURL=soup.css.map */
