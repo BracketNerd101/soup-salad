@@ -1,3 +1,31 @@
+
+.rectangle_hero {
+
+    transform: scale(.85);
+    transform-origin: top center;
+    transition: transform .7s cubic-bezier(.25,.46,.45,.94);
+    height: 40rem;
+    width: auto;
+
+    .rectange_position {
+
+      position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        overflow: hidden;
+        will-change: transform;
+
+    }
+}
+
 /* The hero image */
 .hero_bg_color {
     background-color: #f4f4f4;
@@ -70,71 +98,14 @@
   }
 }
 
+// font-family: 'Anton', sans-serif;
+// font-family: 'Abel', sans-serif;
+// font-family: 'Noto Sans TC', sans-serif;
+
 // MARGINS SPACING ////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////
 
-.top-1x {
 
-  margin-top: 3rem;
-
-}
-
-.top-3x {
-
-  margin-top: 6rem;
-}
-
-.top-6x {
-
-  margin-top: 9rem;
-}
-
-.bottom-1x {
-
-  margin-bottom: 3rem;
-}
-
-.bottom-3x {
-
-  margin-bottom: 6rem;
-}
-
-.bottom-6x {
-
-  margin-bottom: 9rem;
-}
-
-
-.padding-1x {
-
-  padding-top: 3rem;
-
-}
-
-.padding-3x {
-
-  padding-top: 6rem;
-}
-
-.padding-6x {
-
-  padding-top: 9rem;
-}
-
-.padding-bottom-1x {
-
-  padding-bottom: 3rem;
-}
-
-.padding-bottom-3x {
-
-  padding-bottom: 6rem;
-}
-
-.padding-bottom-6x {
-
-  padding-bottom: 9rem;
-}
 
 .hero-title {
   font-family: 'Hepta Slab', serif;
