@@ -4,6 +4,8 @@
   transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   height: 40rem;
   width: auto;
+  background-image: url("../img/watch.jpg");
+  background-size: cover;
 }
 .rectangle_hero .rectange_position {
   position: absolute;
@@ -20,18 +22,28 @@
   overflow: hidden;
   will-change: transform;
 }
+.rectangle_hero .super_hero {
+  text-align: center;
+  font-family: "Noto Sans TC";
+  margin-top: 38rem;
+  color: #333;
+  z-index: 30000;
+  font-variant: small-caps;
+  font-weight: 200;
+  font-size: 7rem;
+}
 
 /* The hero image */
 .hero_bg_color {
-  background-color: #f4f4f4;
+  background-color: #fff;
   height: 25rem;
 }
 .hero_bg_color .hero_color {
-  background-color: #f4f4f4;
+  background-color: #ffffff;
 }
 
 .hero-image {
-  background-color: #f4f4f4;
+  background-color: #ffff;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 40rem;
   /* Position and center the image to scale nicely on all screens */
