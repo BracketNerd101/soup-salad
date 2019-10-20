@@ -4,7 +4,7 @@
     transform: scale(.85);
     transform-origin: top center;
     transition: transform .7s cubic-bezier(.25,.46,.45,.94);
-    height: 40rem;
+    height: 80vh;
     width: auto;
     background-image: url('../img/watch.jpg');
     background-size: cover;
@@ -33,7 +33,7 @@
 
       text-align: center;
       font-family: 'Noto Sans TC';
-      margin-top: 38rem;
+      margin-top:83vh;
       color: #333;
       z-index: 30000;
       font-variant: small-caps;
