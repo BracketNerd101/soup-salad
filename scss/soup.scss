@@ -4,10 +4,11 @@
     transform: scale(.85);
     transform-origin: top center;
     transition: transform .7s cubic-bezier(.25,.46,.45,.94);
-    height: 84vh;
+    height: 95vh;
     width: auto;
-    background-image: url('../img/watch_2.jpg');
-    background-size: cover;
+    background: url('../img/watch_2.jpg')
+    center / cover no-repeat;
+    // background-size: cover;
 
 
     .rectange_position {
