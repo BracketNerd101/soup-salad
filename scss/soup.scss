@@ -4,9 +4,9 @@
     transform: scale(.85);
     transform-origin: top center;
     transition: transform .7s cubic-bezier(.25,.46,.45,.94);
-    height: 80vh;
+    height: 84vh;
     width: auto;
-    background-image: url('../img/watch.jpg');
+    background-image: url('../img/watch_2.jpg');
     background-size: cover;
 
 
@@ -33,7 +33,7 @@
 
       text-align: center;
       font-family: 'Noto Sans TC';
-      margin-top:83vh;
+      margin-top: 15vh;
       color: #333;
       z-index: 30000;
       font-variant: small-caps;
@@ -77,6 +77,12 @@
   .hero-title {
     font-family: 'Hepta Slab', serif;
   }
+}
+
+.system_grid {
+
+  height: 35rem;
+  width: 100%;
 }
 
 .soft_shadow {
