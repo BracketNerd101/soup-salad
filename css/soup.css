@@ -78,8 +78,8 @@
 }
 
 .h-rule_style {
-  background: linear-gradient(to right, #f43b47, #453a94, #453a94, #f43b47);
-  height: 0.2rem;
+  background: linear-gradient(to right, #17a2b8 20%, #333333 20% 40%, #17a2b8 40% 60%, #17a2b8 60% 80%, #333333 80%);
+  height: 0.4rem;
 }
 
 .power-sections {
@@ -170,6 +170,10 @@
 
 .desc p {
   margin-bottom: 10px;
+}
+
+.wow {
+  visibility: hidden;
 }
 
 /*# sourceMappingURL=soup.css.map */
